@@ -3,7 +3,7 @@ import { Stack } from "expo-router";
 
 const RootLayout = () => {
   return (
-    <Stack screenOptions={{ headerShown: true }}>
+    <Stack screenOptions={{ headerShown: false }}>
       <Stack.Screen name="today" />
       <Stack.Screen name="(tabs)" />
     </Stack>
